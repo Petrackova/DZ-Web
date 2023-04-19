@@ -1,0 +1,86 @@
+@font-face {
+	font-family: 'Sunday';
+	src: url('fonts/sunday.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/sunday.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/sunday.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/sunday.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/sunday.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/sunday.svg#sunday') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+    font-family: 'Majestic X';
+    src: url('fonts/majestic_x.eot'); /* IE 9 Compatibility Mode */
+    src: url('fonts/majestic_x.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+        url('fonts/majestic_x.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/majestic_x.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+        url('fonts/majestic_x.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/majestic_x.svg#majestic_x') format('svg'); /* Chrome < 4, Legacy iOS */    
+}
+@font-face {
+	font-family: 'Cabana';
+	src: url('fonts/cabana.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/cabana.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/cabana.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/cabana.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/cabana.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/cabana.svg#cabana') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'Dewberry Italic';
+	src: url('fonts/dewberry_italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/dewberry_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/dewberry_italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/dewberry_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/dewberry_italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/dewberry_italic.svg#dewberry_italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    background-color: rgba(62, 53, 63, 0.644);
+    font-family: 'Cabana', sans-serif;
+    font-size: 30px;
+    padding: 0 20px 20px 20px;
+    color: rgb(0, 8, 8);
+    border: 5px solid black;
+}
+
+h1 {
+    color: rgb(22, 18, 88);
+    font-family: 'Sunday', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 1px black;
+
+}
+h2 {
+    font-family: 'Majestic X', sans-serif;
+    color: rgba(5, 104, 252, 0.479);
+    font-size: 50px;
+    text-align: center;
+
+}
+.big_txt {
+    font-family: 'Sunday', sans-serif;
+    font-size: 20px;
+}
+h3 {
+    font-family: 'Sunday', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+a{
+	font-family: 'Dewberry Italic', sans-serif;
+    color: rgba(63, 165, 42, 0.685);
+}
+a:hover{
+    color: rgb(56, 4, 4);
+}
+img {
+    width: 40vh;
+    display: block;
+    margin: 0 auto;
+}
+ul {
+    list-style-type:square;
+}
+
